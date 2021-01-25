@@ -17,7 +17,7 @@
         android:scaleType="fitXY"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_menu_3dots"
+        app:srcCompat="@drawable/ic_menu_3dot"
         android:background="@android:color/transparent" />
 
     <TextView
