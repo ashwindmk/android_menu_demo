@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu Demo</string>
+    <string name="block">Block</string>
+    <string name="files">Files</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

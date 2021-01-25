@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/block_menu"
+        android:title="@string/block"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/files_menu"
+        android:title="@string/files"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/settings_menu"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/help_menu"
+        android:title="@string/help"
+        app:showAsAction="never" />
+</menu>

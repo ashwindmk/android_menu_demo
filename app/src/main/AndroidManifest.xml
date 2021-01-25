@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashwin.android.menudemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MenuDemo">
+        <activity android:name=".PopupMenuCompatActivity"></activity>
+        <activity android:name=".PopupMenuActivity" />
+        <activity
+            android:name=".OptionsMenuFullScreenActivity"
+            android:theme="@style/Theme.FullScreen" />
+        <activity android:name=".ContextMenuActivity" />
+        <activity android:name=".OptionsMenuFragmentActivity" />
+        <activity android:name=".OptionsMenuCompatActivity" />
+        <activity android:name=".OptionsMenuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

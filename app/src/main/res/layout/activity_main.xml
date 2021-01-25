@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Menu!"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="OPTIONS MENU"
+        android:layout_marginBottom="24dp"
+        android:onClick="gotoOptionsMenu"/>
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="CONTEXT MENU"
+        android:layout_marginBottom="24dp"
+        android:onClick="gotoContextMenu" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="POPUP MENU"
+        android:layout_marginBottom="24dp"
+        android:onClick="gotoPopupMenu" />
+
+</LinearLayout>
