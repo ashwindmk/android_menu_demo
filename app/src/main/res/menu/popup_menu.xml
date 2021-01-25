@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/block_menu"
+    <item android:id="@+id/menu_block"
         android:title="@string/block"
         app:showAsAction="always" />
 
-    <item android:id="@+id/files_menu"
+    <item android:id="@+id/menu_files"
         android:title="@string/files"
         app:showAsAction="ifRoom" />
 
-    <item android:id="@+id/settings_menu"
+    <item android:id="@+id/menu_settings"
         android:title="@string/settings"
         app:showAsAction="ifRoom" />
 
-    <item android:id="@+id/help_menu"
+    <item android:id="@+id/menu_help"
         android:title="@string/help"
         app:showAsAction="never" />
 </menu>

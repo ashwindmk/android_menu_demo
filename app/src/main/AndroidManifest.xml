@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MenuDemo">
-        <activity android:name=".PopupMenuCompatActivity"></activity>
+        <activity android:name=".ContextMenuActionModeActivity"></activity>
+        <activity android:name=".ContextMenuFloatingActivity" />
+        <activity android:name=".PopupMenuGroupActivity" />
+        <activity android:name=".PopupMenuCompatActivity" />
         <activity android:name=".PopupMenuActivity" />
         <activity
             android:name=".OptionsMenuFullScreenActivity"

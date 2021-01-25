@@ -5,13 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OptionsMenuFullScreenActivity">
+    tools:context=".ContextMenuFloatingActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/contextmenu_floating_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Options Menu does NOT work in Full Screen!"
+        android:text="Context Menu Floating"
+        app:layout_constraintBottom_toTopOf="@+id/contextmenu_floating_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/contextmenu_floating_button"
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="CONTEXT MENU"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

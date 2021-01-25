@@ -69,15 +69,15 @@ class OptionsMenuCompatActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         Log.d(Constants.APP_TAG, "$TAG: onOptionsItemSelected")
         return when (item.itemId) {
-            R.id.block_menu -> {
+            R.id.menu_block -> {
                 Log.d(Constants.APP_TAG, "$TAG: onOptionsItemSelected: block_menu")
                 true
             }
-            R.id.files_menu -> {
+            R.id.menu_files -> {
                 Log.d(Constants.APP_TAG, "$TAG: onOptionsItemSelected: files_menu")
                 true
             }
-            R.id.settings_menu -> {
+            R.id.menu_settings -> {
                 Log.d(Constants.APP_TAG, "$TAG: onOptionsItemSelected: settings_menu")
                 true
             }

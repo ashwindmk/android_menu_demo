@@ -1,13 +1,9 @@
 package com.ashwin.android.menudemo
 
-import android.annotation.SuppressLint
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import androidx.fragment.app.Fragment
 
 class OptionsMenuFragmentActivity : AppCompatActivity() {

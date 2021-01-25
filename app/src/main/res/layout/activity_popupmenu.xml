@@ -22,4 +22,11 @@
         android:layout_marginBottom="24dp"
         android:onClick="gotoPopupMenuCompat" />
 
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="GROUP ACTIVITY"
+        android:layout_marginBottom="24dp"
+        android:onClick="gotoPopupMenuGroup" />
+
 </LinearLayout>

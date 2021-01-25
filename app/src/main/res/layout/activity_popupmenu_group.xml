@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopupMenuGroupActivity">
+
+    <ImageButton
+        android:id="@+id/menu_imagebutton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="More"
+        android:onClick="showPopup"
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_menu_3dot" />
+
+    <TextView
+        android:id="@+id/menugroup_textView"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:text="Menu Groups"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/addgroup_checkbox"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_marginBottom="24dp" />
+
+    <CheckBox
+        android:id="@+id/addgroup_checkbox"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="Add Group"
+        app:layout_constraintBottom_toTopOf="@+id/removegroup_checkbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menugroup_textView"
+        android:layout_marginBottom="24dp"/>
+
+    <CheckBox
+        android:id="@+id/removegroup_checkbox"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="Remove Group"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addgroup_checkbox"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:text="ID TEST"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/removegroup_checkbox"
+        app:layout_constraintVertical_bias="0.5"
+        android:layout_marginBottom="24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

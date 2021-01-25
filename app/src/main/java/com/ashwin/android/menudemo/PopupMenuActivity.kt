@@ -14,4 +14,8 @@ class PopupMenuActivity : AppCompatActivity() {
     fun gotoPopupMenuCompat(view: View) {
         startActivity(Intent(PopupMenuActivity@this, PopupMenuCompatActivity::class.java))
     }
+
+    fun gotoPopupMenuGroup(view: View) {
+        startActivity(Intent(PopupMenuActivity@this, PopupMenuGroupActivity::class.java))
+    }
 }

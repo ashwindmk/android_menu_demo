@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun gotoContextMenu(view: View) {
-
+        startActivity(Intent(this@MainActivity, ContextMenuActivity::class.java))
     }
 
     fun gotoPopupMenu(view: View) {

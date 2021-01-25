@@ -24,5 +24,6 @@ class OptionsMenuFullScreenActivity : AppCompatActivity() {
 
     override fun openOptionsMenu() {
         super.openOptionsMenu()
+        Log.d(Constants.APP_TAG, "$TAG: openOptionsMenu")
     }
 }
